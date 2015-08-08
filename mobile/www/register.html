@@ -5,39 +5,41 @@
 		<link href="metro-css\build\css\metro.min.css" rel="stylesheet">
 		<script src="metro-css\docs\js\jquery-2.1.3.min.js"></script>
 		<script src="metro-css\build\js\metro.min.js"></script>
+		<script src="js/translate.js"></script>
+		<script src="../resources/pt_BR.js"></script>
 	</head>
 <body>
 
 	<div style="margin: 0 auto; width: 300px; margin-top: 50px;">
 		<form name="form-register" method="POST" action="#">
-			<h3 style="text-align: center;">Register Now! It's easy!</h3>
-			<label>Name:</label>
+			<h3 id="tit_reg" style="text-align: center;">Register Now! It's easy!</h3>
+			<label id="name">Name:</label>
 			<div class="input-control text" style="width: 100%;">
-				<input type="text" name="txt-name" required placeholder="Enter your name">
+				<input id="ent_name" type="text" name="txt-name" required placeholder="Enter your name">
 			</div>
 			
 			<label>E-mail:</label>
 			<div class="input-control text" style="width: 100%;">
-				<input type="email" name="txt-email" required placeholder="Enter your E-mail">
+				<input id="ent_email" type="email" name="txt-email" required placeholder="Enter your E-mail">
 			</div>
 			
-			<label>Password:</label>
+			<label id="pass">Password:</label>
 			<div class="input-control text" style="width: 100%;">
 				<input type="password" name="txt-pass" required placeholder="******">
 			</div>
 			
-			<label>Repeat Password:</label>
+			<label id="pass_rpt">Repeat Password:</label>
 			<div class="input-control text" style="width: 100%;">
 				<input type="password" name="txt-repeat-pass" required placeholder="******">
 			</div>
 			
-			<label>Choice your photo:</label>
+			<label id="photo">Choice your photo:</label>
 			<div class="input-control file" data-role="input" style="width: 100%;">
 				<input type="file">
 				<button class="button"><span><img src="img/Blank_Folder.png"></span></button>
 			</div>
 						
-			<button type="submit "class="button primary" style="width: 100%;">Send my register</button>
+			<button type="submit" id="bt_reg" class="button primary" style="width: 100%;">Send my register</button>
 		</form>
 	</div>
  

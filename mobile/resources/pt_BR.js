@@ -4,7 +4,7 @@ var translate = {
 		"BTN_CANCEL": "Cancelar",
 		"BTN_SEND": "Enviar",
 		"BTN_LOGIN": "Logar",
-		"BTN_RST_PASS": "Alterar minha senha",
+		"BTN_RST_PASS": "Alterar senha",
 		"BTN_REGISTER": "Registrar"
 	},
 	"TITLES": {
@@ -17,9 +17,9 @@ var translate = {
 		"TXT_EMAIL": "E-mail: ",
 		"TXT_PASS": "Senha: ",
 		"TXT_PASS_AGAIN": "Digite a senha novamente: ",
-		"TXT_FORGOT": "Esqueceu o e-mail ou a senha?: ",
+		"TXT_FORGOT": "Esqueceu o e-mail ou a senha? ",
 		"TXT_PHOTO": "Selecione sua foto: ",
-		"TXT_USER": "Usuario",
+		"TXT_USER": "USUARIOS",
 		"TXT_CHAT": "HISTORICO RECENTE"
 	},
 	"MESSAGE": {
